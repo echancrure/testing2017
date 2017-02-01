@@ -138,16 +138,16 @@ hasStock</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>140</x>
+      <x>150</x>
       <y>430</y>
-      <w>170</w>
+      <w>160</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;
 m1={ordered} * 
 
 </panel_attributes>
-    <additional_attributes>150;150;30;150;30;30</additional_attributes>
+    <additional_attributes>140;150;30;150;30;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
