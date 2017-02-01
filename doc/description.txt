@@ -1,0 +1,7 @@
+Game of Eights Document is online at:
+https://docs.google.com/document/d/1mxk1lgKGASYmATifCZiLWdLHqJhpQ45FlCRLCBi8nDs/edit?usp=sharing
+
+Some contracts have been written:
+https://docs.google.com/document/d/1zkFgG1DiGOhv64o7yA3bzWJw3gbt-tCrmlhM9_wjgcg/edit?usp=sharing
+
+The domain model is in this folder eightsDM.uxf (UMLet format)
