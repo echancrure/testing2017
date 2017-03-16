@@ -1,4 +1,8 @@
+import org.junit.Test;
+
 import java.util.ArrayList;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by meudecc on 26/01/2017.
@@ -9,8 +13,8 @@ public class Eights {
     private ArrayList<Card> deck = new ArrayList<>(52);
     private StarterPile starterPile;
     private Stock stock;
-    private Human human;
-    private Computer ai;
+    private Player human;
+    private Player ai;
 
     public Eights() {
         for (Suit s : Suit.values()) {
@@ -23,6 +27,14 @@ public class Eights {
 
     public void setPlayer(String name) {
         this.human = new Human(name);
+    }
+
+    public String getPlayerName() {
+        if (this.human == null) {
+            throw new IllegalArgumentException("No human player set");
+        }
+        String s = ((Human)this.human).getName();
+        return s;
     }
 
     public void startGame(Difficulty difficulty) {
@@ -65,4 +77,5 @@ public class Eights {
         } while (!card.getHasBeenDealt());
         return card;
     }
+
 }
